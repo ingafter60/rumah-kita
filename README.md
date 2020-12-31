@@ -1,5 +1,7 @@
 # rumah-kita
 Rumah Kita: Home away from home
+https://github.com/ingafter60/rumah-kita
+
 
 ## 1. SETUP 
 
@@ -20,3 +22,5 @@ Rumah Kita: Home away from home
         new file:   manage.py
 
 ### 2. Create 6 django apps: conversations, lists, reservations, reviews, rooms, and users
+
+### 3. Modified README.md file
