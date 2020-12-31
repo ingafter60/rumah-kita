@@ -39,3 +39,16 @@ https://github.com/ingafter60/rumah-kita
         modified:   config/urls.py
         modified:   config/wsgi.py
         modified:   manage.py
+
+## 3.2 USER APP - SETTING UP POSTGRESQL AS THE DATABASE
+
+### 3.2.0 Replacing Default User 
+
+### 3.2.1 Introduction to the User Model
+
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   users/admin.py
+        modified:   users/models.py
+        users/migrations/0001_initial.py
+        users/migrations/0002_user_bio.py
