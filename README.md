@@ -18,3 +18,5 @@ Rumah Kita: Home away from home
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+### 2. Create 6 django apps: conversations, lists, reservations, reviews, rooms, and users
