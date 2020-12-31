@@ -9,6 +9,7 @@ https://github.com/ingafter60/rumah-kita
 
 ### 2. Pushing the local repo to github
 
+
 ## 2. DJANGO PROJECT
 
 ### 1. Create django project 'config' inside root folder
@@ -24,3 +25,17 @@ https://github.com/ingafter60/rumah-kita
 ### 2. Create 6 django apps: conversations, lists, reservations, reviews, rooms, and users
 
 ### 3. Modified README.md file
+
+
+## 3.1 USER APP - TRIAL 
+
+### 3.1.0 Use default sqlite db and run migrations
+
+### 3.1.1 Create superuser
+
+        modified:   README.md
+        deleted:    config/asgi.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        modified:   config/wsgi.py
+        modified:   manage.py
