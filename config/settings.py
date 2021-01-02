@@ -30,17 +30,25 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+DEFAULT_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # new
-    'users',
 ]
+
+NEW_APPS = [
+    'conversations.apps.ConversationsConfig',
+    'lists.apps.ListsConfig',
+    'reservations.apps.ReservationsConfig',
+    'reviews.apps.ReviewsConfig',
+    'rooms.apps.RoomsConfig',
+    'users.apps.UsersConfig',
+] 
+
+INSTALLED_APPS = DEFAULT_APPS + NEW_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -78,8 +86,12 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'django_rumahkita', 
+        'USER': 'userrumahkita', 
+        'PASSWORD': '12345',
+        'HOST': '127.0.0.1', 
+        'PORT': '5432',
     }
 }
 

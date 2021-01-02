@@ -52,3 +52,11 @@ https://github.com/ingafter60/rumah-kita
         modified:   users/models.py
         users/migrations/0001_initial.py
         users/migrations/0002_user_bio.py
+
+### 3.3 Setup DB and Modify settings.py     
+  
+        modified:   Pipfile
+        modified:   Pipfile.lock
+        modified:   README.md
+        modified:   config/settings.py
+        modified:   users/admin.py
