@@ -60,3 +60,11 @@ https://github.com/ingafter60/rumah-kita
         modified:   README.md
         modified:   config/settings.py
         modified:   users/admin.py
+
+### 3.4 Fields - Add more fields to User model
+
+        modified:   Pipfile
+        modified:   Pipfile.lock
+        modified:   README.md
+        new file:   users/migrations/0003_auto_20210102_1625.py
+        modified:   users/models.py
